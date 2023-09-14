@@ -6,7 +6,7 @@ console.log(indice);
 //let palabra = diccionario[indice];
 let palabra;
 
-fetch('http://random-word-api.herokuapp.com/word?length=5&lang=en')
+fetch("https://random-word-api.herokuapp.com/word?length=5&lang=en")
     .then(response => response.json())
     .then(response => {
         console.log(response)
